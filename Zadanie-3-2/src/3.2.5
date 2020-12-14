@@ -24,7 +24,7 @@ int16_t dig_P6 = 0, dig_P7 = 0, dig_P8 = 0, dig_P9 = 0;
 BMP280_S32_t t_fine;
 
 BMP280_S32_t bmp280_compensate_T_int32(BMP280_S32_t adc_T);
-BMP280_S32_t bmp280_compensate_P_int32(BMP280_S32_t adc_p);
+BMP280_U32_t bmp280_compensate_P_int32(BMP280_S32_t adc_p);
 
 void setup()
 {
